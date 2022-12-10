@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@500&family=Open+Sans:wght@500&family=Roboto+Slab:wght@800&display=swap');
+* {box-sizing: border-box;}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  /*background-image: url(background.webp);*/
+  font-weight: bold;
+  padding: 0;
+  object-fit: contain;
+  margin: 0;
+  text-align: justify;
+}
+
+.mainContainer {
+  background-color: #add8e6;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+
+}
+
+.menu {
+  display: flex;
+  object-fit: contain;
+  font-size: 25px;
+  margin-left: 1250px;
+  font-family: 'Metal Mania', cursive;
+}
+
+.image {
+  object-fit: contain;
+  object-position: center center;
+  width: 250px;
+  height: 250px;
+  /* margin-right: 20px; */
+}
+
+.logo_pics {
+  flex: 1;
+  text-align: center;
+  outline-style: dashed;
+  outline-color:pink;
+  outline-width: thick;
+  /* this didn't work --
+  object-fit: cover;
+  object-position: center, center; */
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+h1{
+  object-fit: center;
+  object-position: center;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+  text-decoration: underline;
+}
+a:hover{
+  text-decoration: underline;
+  color: red;
+}
+
+.small_img{
+  width:240px;
+  height:250px;
+}
+
+figure {
+  float: right;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 10px;
+  padding: 10px;
+  padding-top: 6.9%;
+}
+
+.important_info{
+text-align: center;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 30px;}
+
+.factsContainer{
+  padding-left: 20px;
+  padding-right: 30px;
+}
+.created{
+  padding-left: 40px;
+  padding-right: 30px;
+}
+.company_title{
+  display: flex;
+  height: 450px;
+  background-size: cover;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 32px;
+  font-weight: bolder;
+  object-fit: contain;
+
+}
+
+.background_index{
+  display: flex;
+  background-size: cover;
+  height: 230px;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 32px;
+  font-weight: bolder;
+  object-fit: contain;
+  background-image: url(all_background.jpeg)
+}
+
+.title{
+  background-color: pink;
+  font-family: 'Alexandria', sans-serif;
+  font-weight: bolder;
+  object-position: center center;
+  align-items: center;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 35px;
+}
+
+#weird_img{
+  width:250px;
+  height: 200px;
+}
+/* backgrounds */
+
+#amazon_background{
+  background-image: url(amazon_background.png);
+}
+#apple_background{
+  background-image: url(apple_background.png);
+}
+#google_background{
+  background-image: url(google_background.gif);
+  height: 400px;
+}
+#netflix_background{
+  background-image: url(netflix_background.webp)
+}
+#facebook_background{
+  background-image: url(facebook_background.png)
+}
+#microsoft_background{
+  background-image: url(microsoft_background.png)
+}
+#twitter_background{
+  background-image: url(twitter_background.svg)
+}
+#uber_background{
+  background-image: url(uber_background.png)
+}
+#whatsapp_background{
+  background-image: url(whatsapp_background.png)
+}
+#tiktok_background{
+  background-image: url(tiktok_background.png);
+}
+#instagram_background{
+  background-image: url(instagram_background.jpeg);
+}
